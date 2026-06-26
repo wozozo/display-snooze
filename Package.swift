@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "DisplaySnooze",
-            dependencies: ["DisplaySnoozeCore"]
+            dependencies: ["DisplaySnoozeCore"],
+            resources: [.process("Resources")]
         ),
         .target(name: "DisplaySnoozeCore"),
         .testTarget(
