@@ -10,11 +10,14 @@ permissions:
 
 jobs:
   release:
-    runs-on: macos-latest
+    runs-on: macos-26
 
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
+      - name: Show toolchain
+        run: swift --version
 
       - name: Test
         run: swift test
