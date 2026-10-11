@@ -11,7 +11,7 @@ A macOS menu bar app that temporarily disables external displays without unplugg
 
 ## Requirements
 
-- macOS 13 or later
+- macOS 26 or later
 - Swift 5.9+ (to build from source)
 
 ## Install
