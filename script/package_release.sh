@@ -3,7 +3,7 @@ set -euo pipefail
 
 APP_NAME="DisplaySnooze"
 BUNDLE_ID="jp.wzz.DisplaySnooze"
-MIN_SYSTEM_VERSION="13.0"
+MIN_SYSTEM_VERSION="26.0"
 
 VERSION="${1:-${GITHUB_REF_NAME:-}}"
 VERSION="${VERSION#v}"
